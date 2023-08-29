@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(26, 121, 88);
+}
+
+.marco{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.marco p{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+.marco input{
+    border: 2px solid rgb(22, 109, 141);
+    width: 50%;
+}
+
+.marco input:hover{
+    border: 2px solid rgb(74, 30, 145);
+}
+
+.marco input::placeholder{
+    color: rgb(51, 28, 151);
+}
+
+@media (max-width:600px){
+    .marco .foto img{
+        width: 100px;
+        height: 100px;
+        background: red;
+    }
+}
+
